@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/todos-tsx-demo/static/css/main.65a7d884.css",
+    "main.js": "/todos-tsx-demo/static/js/main.d09664e0.js",
+    "index.html": "/todos-tsx-demo/index.html",
+    "main.65a7d884.css.map": "/todos-tsx-demo/static/css/main.65a7d884.css.map",
+    "main.d09664e0.js.map": "/todos-tsx-demo/static/js/main.d09664e0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.65a7d884.css",
+    "static/js/main.d09664e0.js"
+  ]
+}
