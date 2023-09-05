@@ -1,14 +1,12 @@
 @import "../../assets/styles/variables.scss";
+@import "../../assets/styles/mixins.scss";
 
 .todos {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  // padding: 20px 30px;
   max-width: 450px;
   min-height: 200px;
-  // background-color: rgba($c-light-yellow, 0.7);
-  // border-radius: 20px;
   box-shadow: 0 1px 6px 1px rgba($c-dark-gray, 0.7);
 
   &__form {
@@ -30,12 +28,18 @@
 
   &__footer {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
     column-gap: 5px;
-    row-gap: 5px;
+    row-gap: 10px;
     margin-top: auto;
     padding: 10px 5px;
     font-size: 12px;
+
+    @include media("sm", "min") {
+      justify-content: space-between;
+      flex-direction: row;
+    }
 
     &-total {
       display: flex;

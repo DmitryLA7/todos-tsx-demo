@@ -37,7 +37,7 @@ const Todos = () => {
     <div className="todos">
       <form className="todos__form" onSubmit={(e) => handleAddTodo(e, todo)}>
         <TodoInput value={todo} onChange={(e) => setTodo(e.target.value)} />
-        <button type="submit">Add todo</button>
+        <button type="submit">Add</button>
       </form>
       <TodoList filter={filter} />
       <div className="todos__footer">
