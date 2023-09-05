@@ -1,0 +1,23 @@
+.todo-filters {
+  display: flex;
+  row-gap: 5px;
+  column-gap: 5px;
+
+  &__input-wrapper {
+    input {
+      display: none;
+    }
+  }
+
+  &__label {
+    display: block;
+    padding: 3px 5px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    cursor: pointer;
+
+    &--active {
+      border: 1px solid #a0a0a0;
+    }
+  }
+}

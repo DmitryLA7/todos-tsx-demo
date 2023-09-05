@@ -1,0 +1,7 @@
+@each $key, $size in $containers {
+  .container--#{$key} {
+    margin: 0 auto;
+    padding: 0 $container-spacing;
+    max-width: calc($size + ($container-spacing * 2));
+  }
+}

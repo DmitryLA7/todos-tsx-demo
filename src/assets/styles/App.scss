@@ -1,0 +1,11 @@
+.app {
+  &__title {
+    text-align: center;
+
+    span {
+      background: linear-gradient(161deg, #0b2349 28%, #0d61bc 66%, #8aa9d6);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+}

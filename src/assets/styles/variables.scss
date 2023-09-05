@@ -1,0 +1,20 @@
+// containers
+$containers: (
+  "md": 900px,
+  "xl": 1140px,
+);
+$container-spacing: 20px;
+
+// colors
+$c-white: #fff;
+$c-black: #000;
+$c-light-gray: #e0e0e0;
+$c-dark-gray: #bcbcbc;
+$c-light-yellow: #eee3bd;
+
+// breakpoints
+$breakpoints: (
+  "sm": 576px,
+  "md": 768px,
+  "lg": 992px,
+);

@@ -1,0 +1,12 @@
+@mixin media($key, $type: "min") {
+  @if $type == "min" {
+    @media (min-width: map-get($breakpoints, $key)) {
+      @content;
+    }
+  }
+  @if $type == "max" {
+    @media (max-width: map-get($breakpoints, $key)) {
+      @content;
+    }
+  }
+}

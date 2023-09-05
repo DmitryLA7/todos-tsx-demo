@@ -1,0 +1,25 @@
+@import "../../assets/styles/variables.scss";
+
+.todo {
+  display: flex;
+  padding: 10px 5px;
+  background-color: $c-white;
+  border-bottom: 1px solid $c-light-gray;
+  border-top: 0;
+
+  &--completed {
+    text-decoration: line-through;
+    color: $c-dark-gray;
+  }
+
+  &__checkbox {
+    margin: 0;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+
+    &-label {
+      margin-right: 8px;
+    }
+  }
+}
